@@ -1,0 +1,93 @@
+Category,Subcategary,Cmd ID,cmd,act,enable,prompt,tags,Explanation,rate,Examples
+English Learning,General tasks,(0-1-1),word_definition,Show the meaning of a given word and some example sentences using the word. ,,Show the meaning of word "[word]" and some example sentences using the word.,,,,
+English Learning,General tasks,(0-2),word_collocation,Show the collocations of word "[word]" with example sentences using these collocations.,,Show the collocations of word "[word]" with example sentences using these collocations.,,,,
+English Learning,General tasks,(0-3),translate_text,Translate the following text into English/[your native language]: [text],,Translate the following text into English/[your native language]: [text],,,,
+English Learning,General tasks,(0-4),bilingual_answer,[Prompt] in both English and [your native language].,,[Prompt] in both English and [your native language].,,,,
+English Learning,General tasks,(0-5) ,sentence_structure_analysis,"Analyse the structure of the following sentence , show the output in the format of table, followed by its [learner's native language] translation and vocabulary notes for difficult words and phrases: [sentence]",,"Analyse the structure of the following sentence , show the output in the format of table, followed by its [learner's native language] translation and vocabulary notes for difficult words and phrases: [sentence]",,,,
+English Learning,General tasks,(0-6-1-1),academic_vocabulary_prompt_1,List [number] academic words or collocations which might be used in an IELTS essay for the following writing prompt: [prompt],,List [number] academic words or collocations which might be used in an IELTS essay for the following writing prompt: [prompt],,,,
+English Learning,General tasks,(0-6-1-4),academic_vocabulary_prompt_2,"Write a model IELTS essay using the above words/collocations to the above prompt, labeling the above words/collocations with []",,"Write a model IELTS essay using the above words/collocations to the above prompt, labeling the above words/collocations with []",,,,
+English Learning,General tasks,(0-6-2-1) ,academic_vocabulary_topic_1,List common topics and subtopics of IELTS writing task two.,,List common topics and subtopics of IELTS writing task two.,,,,
+English Learning,General tasks,(0-6-2-2),academic_vocabulary_topic_2,"List [number] academic words or collocations related to the subtopic ""[subtopic ]"", followed with their [your native language] translation.",,"List [number] academic words or collocations related to the subtopic ""[subtopic ]"", followed with their [your native language] translation.",,,,
+English Learning,General tasks,(0-6-2-3) ,academic_vocabulary_topic_3,"Give one English example sentence for each of the above , followed by their [your native language] translation.",,"Give one English example sentence for each of the above , followed by their [your native language] translation.",,,,
+English Learning,Exam writing,(1-1) ,ielts_essay_prompt,Write a model IELTS essay to the following prompt: [prompt],,Write a model IELTS essay to the following prompt: [prompt],,,,
+English Learning,Exam writing,(1-2) ,ielts_essay_outline_prompt,Write an outline to the following IELTS writing prompt: [prompt],,Write an outline to the following IELTS writing prompt: [prompt],,,,
+English Learning,Exam writing,(1-3) ,ielts_essay_prompt_outline,"Write a model IELTS essay to the following IELTS writing prompt and according to the following outline:
+prompt: [prompt] 
+outline: [outline]",,"Write a model IELTS essay to the following IELTS writing prompt and according to the following outline:
+prompt: [prompt] 
+outline: [outline]",,,,
+,,,ielts_essay_prompt_position,Write a model IELTS essay to the following prompt with the position that [position]:  [prompt],,Write a model IELTS essay to the following prompt with the position that [position]:  [prompt],,,,
+,,,academic_style,Rewrite it in a more academic style,,Rewrite it in a more academic style,,,,
+,,,other_style,Rewrite it in the style of [writer/magazine/newspaper],,Rewrite it in the style of [writer/magazine/newspaper],,,,
+,,,advanced_simplified__vocabulary,Rewrite it using more advanced/simplified language,,Rewrite it using more advanced/simplified language,,,,
+,,,idea_generation_pros_cons,List the benefits and drawbacks of [trend/phenomenon],,List the benefits and drawbacks of [trend/phenomenon],,,,
+,,,idea_generation_arguments_for_and_against,List the arguments for and against the opinion that [opinion],,List the arguments for and against the opinion that [opinion],,,,
+,,,idea_generation_causes_solutions,List the causes of and solutions to the issue/phenomenon that [issue/phenomenon],,List the causes of and solutions to the issue/phenomenon that [issue/phenomenon],,,,
+,,,idea_explain,"Explain, extend and support the idea: [idea]",,"Explain, extend and support the idea: [idea]",,,,
+,,,idea_example,Use an example to support the idea: [idea],,Use an example to support the idea: [idea],,,,
+,,,paraphrasing,List [n] ways to rephrase/rewrite : [expression/sentence],,List [n] ways to rephrase/rewrite : [expression/sentence],,,,
+,,,proofreading,"Identify, explain and correct the grammar/spelling errors in the following text : [text]",,"Identify, explain and correct the grammar/spelling errors in the following text : [text]",,,,
+,,,proofreading_table,"Identify, explain and correct the grammar/spelling errors in the format of table in the following text : [text]",,"Identify, explain and correct the grammar/spelling errors in the format of table in the following text : [text]",,,,
+,,,polish_text,Polish the following text: [text],,Polish the following text: [text],,,,
+,,,insert_text,Insert content in the bracket in the following text:  [before-text] () [after-text],,Insert content in the bracket in the following text:  [before-text] () [after-text],,,,
+,,,vocabulary_improvement,Rewrite the following text using a wider range of vocabulary : [text],,Rewrite the following text using a wider range of vocabulary : [text],,,,
+,,,cc_improvement,Improve the coherence and cohesion in the following text: [text],,Improve the coherence and cohesion in the following text: [text],,,,
+,,,sentence_structure_improvement,Rewrite the following text using a wider range of complex sentence structure: [text],,Rewrite the following text using a wider range of complex sentence structure: [text],,,,
+,,,ielts_essay_grading,"Act as an IELTS examiner, and rate the following IELTS essay, please point out its problems in categories of Task Response, Coherence and cohesion, Lexical resource, and Grammatical Range and Accuracy; and give corresponding corrections and improvements; and a band score from 0~9: [essay]
+",,"Act as an IELTS examiner, and rate the following IELTS essay, please point out its problems in categories of Task Response, Coherence and cohesion, Lexical resource, and Grammatical Range and Accuracy; and give corresponding corrections and improvements; and a band score from 0~9: [essay]
+",,,,
+,,,2+1_introduction_outline,"This is an IELTS writing prompt:
+[prompt]
+
+Now you need to write a two-sentence, around 40-word introduction as per the outline below:
+
+Sentence one: Introduce the topic by paraphrasing the prompt£»
+Sentence two: Thesis statement giving a general answer to the question in the prompt.",,"This is an IELTS writing prompt:
+[prompt]
+
+Now you need to write a two-sentence, around 40-word introduction as per the outline below:
+
+Sentence one: Introduce the topic by paraphrasing the prompt£»
+Sentence two: Thesis statement giving a general answer to the question in the prompt.",,,,
+,,,2+1_introduction_template,"This is an IELTS writing prompt:
+[prompt]
+
+Now you need to write a two-sentence, around 40-word introduction as per the template below:
+[template]",,"This is an IELTS writing prompt:
+[prompt]
+
+Now you need to write a two-sentence, around 40-word introduction as per the template below:
+[template]",,,,
+,,,2+1_body,"Below is an introduction of an IELTS essay: 
+[introduction]
+Now, write two body paragraphs according to the following template:
+[template]",,"Below is an introduction of an IELTS essay: 
+[introduction]
+Now, write two body paragraphs according to the following template:
+[template]",,,,
+,,,2+1_conclusion,"Below is an introduction and body of an IELTS essay: 
+¡°[introduction + body]¡±
+Now, write a one-sentence conclusion summarizing the main ideas and restate the position if applicable.",,"Below is an introduction and body of an IELTS essay: 
+¡°[introduction + body]¡±
+Now, write a one-sentence conclusion summarizing the main ideas and restate the position if applicable.",,,,
+,,,2+1_essay,"This is an IELTS writing prompt:
+[prompt]
+Now, write an essay according to the following template:
+[template]",,"This is an IELTS writing prompt:
+[prompt]
+Now, write an essay according to the following template:
+[template]",,,,
+,,,reading_explain,Explain what ¡°[word/expression/sentence]¡±means in the following article in both English and [your native language]: [article],,Explain what ¡°[word/expression/sentence]¡±means in the following article in both English and [your native language]: [article],,,,
+,,,reading_vocabulary_notes,Prepare vocabulary notes explaining words and phrases that might be difficult for intermediate learners of English to understand in the following article in both English and [your native language] : [article],,Prepare vocabulary notes explaining words and phrases that might be difficult for intermediate learners of English to understand in the following article in both English and [your native language] : [article],,,,
+,,,article_translation,Translate the following article into [your native language]£º [article],,Translate the following article into [your native language]£º [article],,,,
+,,,reading_sentence_by_sentence,"Display the following article sentence by sentence. First show the English sentence, then the vocabulary notes in [your native language] for difficult words and phrases in that sentence, and finally the [your native language] translation of that sentence. Do this for the entire article £º [article]",,"Display the following article sentence by sentence. First show the English sentence, then the vocabulary notes in [your native language] for difficult words and phrases in that sentence, and finally the [your native language] translation of that sentence. Do this for the entire article £º [article]",,,,
+,,,ielts_speaking,"Act as a [your native language] IELTS candidate sitting in the speaking test,  please answer the following questions in English. The speaking time should be around 3~4 minutes.
+[Part 1/2/3 questions]",,"Act as a [your native language] IELTS candidate sitting in the speaking test,  please answer the following questions in English. The speaking time should be around 3~4 minutes.
+[Part 1/2/3 questions]",,,,
+,,,ielts_speaking_custom,"Act as a [your native language] IELTS candidate sitting in the speaking test,  please answer the following question in English with requirements below. The speaking time should be around [n] minutes.
+question : [question]
+requirements : [requirements]",,"Act as a [your native language] IELTS candidate sitting in the speaking test,  please answer the following question in English with requirements below. The speaking time should be around [n] minutes.
+question : [question]
+requirements : [requirements]",,,,
+,,,ielts_speaking_practice_candidate,"Act as an IELTS speaking examiner, I am the candidate. You will ask me some common IELTS speaking questions, one question each time. Now please ask me the first question.",,"Act as an IELTS speaking examiner, I am the candidate. You will ask me some common IELTS speaking questions, one question each time. Now please ask me the first question.",,,,
+,,,ielts_speaking_practice_examiner,"Act as an IELTS candidate sitting for the speaking test, assume [your profile]. I am the examiner , and I will ask you some questions one by one; please try your best to answer them. The first question is : [question]",,"Act as an IELTS candidate sitting for the speaking test, assume [your profile]. I am the examiner , and I will ask you some questions one by one; please try your best to answer them. The first question is : [question]",,,,
