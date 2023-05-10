@@ -89,7 +89,7 @@
   },
   {
     "act": "雅思高频写作题目(1-8)",
-    "prompt": "List 3 most common IELTS writing task two questions [topic, such as: on eductation]，which ends with: [question type, such as:is it a positive or negative development?]"
+    "prompt": "List 3 most common IELTS writing task two questions [topic, e.g.: on education]，which ends with: [question type, e.g.:is it a positive or negative development?]"
   },
   {
     "act": "产生idea:优劣(2-1)",
