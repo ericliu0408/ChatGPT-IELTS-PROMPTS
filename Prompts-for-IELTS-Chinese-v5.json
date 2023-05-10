@@ -56,8 +56,12 @@
     "prompt": "Create a one-week study plan for IELTS writing，I have 30 minutes every day to study."
   },
   {
-    "act": "写雅思范文(1-1)",
-    "prompt": "Write a model IELTS essay to the following prompt: [prompt]"
+    "act": "写雅思大作文范文(1-1-1)",
+    "prompt": "Write a 300-word model IELTS essay to the following prompt: [prompt]"
+  },
+  {
+    "act": "写雅思书信范文(1-1-2)",
+    "prompt": "Write a 200-word model IELTS letter to the following prompt: [prompt]"
   },
   {
     "act": "写雅思作文提纲(1-2)",
@@ -82,6 +86,10 @@
   {
     "act": "词汇升级/降级(1-7)",
     "prompt": "Rewrite it using more advanced/simplified language"
+  },
+  {
+    "act": "雅思高频写作题目(1-8)",
+    "prompt": "List 3 most common IELTS writing task two questions [topic, such as: on eductation]，which ends with: [question type, such as:is it a positive or negative development?]"
   },
   {
     "act": "产生idea:优劣(2-1)",
@@ -111,6 +119,7 @@
     "act": "同义改写(3-1)",
     "prompt": "List [n] ways to rephrase/rewrite : [expression/sentence]"
   },
+
   {
     "act": "语法/拼写检查纠错(4-1-a)",
     "prompt": "Identify, explain and correct the grammar/spelling errors in the following text : [text]"
@@ -128,7 +137,11 @@
     "prompt": "Insert content in the bracket in the following text:  [before-text] () [after-text]"
   },
   {
-    "act": "文本词汇多样性提升(4-4)",
+    "act": "表达自然度判断及提升(4-4-1)",
+    "prompt": "Is the following text natural-sounding, if not, rewrite it using natural-sounding English: [text]"
+  },
+  {
+    "act": "文本词汇多样性提升(4-4-2)",
     "prompt": "Rewrite the following text using a wider range of vocabulary : [text]"
   },
   {
@@ -139,6 +152,7 @@
     "act": "文本句型多样性提升(4-6)",
     "prompt": "Rewrite the following text using a wider range of complex sentence structure: [text]"
   },
+
   {
     "act": "作文分项批改(4-7)",
     "prompt": "请扮演一名雅思考官，评分以下雅思作文，并指出其在任务响应、连贯性和衔接、词汇资源以及语法范围和准确性方面存在的问题；并提出相应的修改和改进意见，最后给出0~9分的成绩： [essay]"
